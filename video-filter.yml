@@ -1,0 +1,27 @@
+version: '3.7'
+services:
+# 由于本人的运行环境是在一个docker里运行的，但是这个docker大概有7G，所以比较难上传，请读者自行根据上述安装环境构建docker
+        videoContextAnalyze:
+                image: videocontextanalyze
+                network_mode: bridge
+                container_name: videoContextAnalyze
+                port:
+                        - 9999:9999
+                volumes:
+                        - ./:/code
+                        - PATH/TO/YOUR/VIDEO:/video
+
+        media-server:
+                image: illuspas/node-media-server:latest
+                network_mode: bridge
+                container_name: media-server
+                port:
+                        - 1935:1935
+                        - 8500:8500
+                volumes:
+                        - ./segments:/usr/src/app/segments
+                        - ./Node-Media-Server/app.js:usr/src/app/app.js
+                        - ./Node-Media-Server/node_relay_server.js:/usr/src/app/node_relay_server.js 
+                        - ./:/code
+
+

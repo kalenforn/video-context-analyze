@@ -1,0 +1,11 @@
+request
+face_recognition
+numpy
+opencv-python
+tornado
+json
+m3u8
+dlib
+easydict
+shutil
+pymysql

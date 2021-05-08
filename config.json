@@ -1,0 +1,30 @@
+{
+  "api_key" : "",
+  "secret_key": "",
+  "dev_pid": 1537,
+
+  "output_dir": "output/",
+
+  "host_name": "",
+  "mysql_user": "",
+  "mysql_passwd": "",
+  "mysql_database": "video_filter",
+  "mysql_port": 3306,
+  "mysql_table": "record",
+
+  "push_port": "8500",
+
+  "code_dir": "" ,
+  "video_root_path": "",
+  "image_root_path": "",
+
+  "c_r_proportion": 5,
+  "threshold": 0.5,
+  "video_len": 4,
+  "audio_len": 94286,
+  "width": 1280,
+  "height": 720,
+
+  "fr": "on",
+  "sr": "on"
+}
