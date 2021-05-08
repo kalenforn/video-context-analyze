@@ -189,4 +189,4 @@ dlib/tools/python/src/face_recognition.py
 
 **感谢提供思路的老师师兄以及解决方案的第三方python库，开源许可证为MIT，请需要读者根据MIT许可证许可条件自行开发使用**
 
-#### 新增对于控制器的讲解：[控制器讲解](https://47.118.48.232/video-filter-analyze.html)
+#### 新增对于控制器的讲解：[控制器讲解](http://47.118.48.232/video-filter-analyze.html)
