@@ -64,7 +64,7 @@
 
 #### 4. people table:
 
-用于存放人名和对应的人的职位等信息，该表主要是配合前端的增删改查，与后端无关（后续表单皆为前端需要使用的表）
+用于存放人名和对应的人的职位等信息，该表主要是配合前端的增删改查，与后端无关。**后续表单皆为前端需要使用的表**
 
 > create table people(id BIGINT not null auto_increment primary key, people_name varchar(255), people_position varchar(255), fall_time varchar(255), fall_reason varchar(255));
 
