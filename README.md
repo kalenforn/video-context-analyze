@@ -22,7 +22,7 @@
 
 该项目不仅能实现对本地视频的实时检测，也能实现对实时直播流视频的实时检测，其可任意添加模块（可自由添加nfsw等模块）
 
-**注意：**本项目为后端识别项目，前端相关代码由另外一位大佬负责编写，项目地址:[XXXXXXX]()
+**注意：**本项目为后端识别项目，前端相关代码由另外一位大佬负责编写，项目地址:[front-end-of-video-context-analyze-system](https://github.com/liujilong0116/front-end-of-video-context-analyze-system)
 
 ## 项目框架图：
 
