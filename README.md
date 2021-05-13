@@ -37,6 +37,7 @@
 整个项目中依赖mysql数据库作为最终识别结果的存储区域，同时还需要几个固定的mysql数据表作为原始数据的支撑，下面将做一一介绍：
 
 进入mysql以后新建database:
+**开启xxx用户远程登录权限！**
 
 > create database projectdata;
 
